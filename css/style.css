@@ -1,0 +1,112 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: grey;
+}
+
+@media only screen and (max-width: 1500px) {
+
+   .btn-flat { 
+      font-size: 14px;
+   }
+   .table-of-contents li {
+    margin-right:-20px; 
+   }
+}
+
+@media only screen and (max-width: 1200px) {
+
+   .btn-flat { 
+      font-size: 12px;
+   }
+   .table-of-contents {
+    margin-right:-30px; 
+   }
+}
+
+@media only screen and (max-width: 950px) {
+
+   .btn-flat { 
+      font-size: 12px;
+   }
+   .table-of-contents {
+    margin-right:-80px; 
+    margin-left:-80px;     
+   }
+}
+
+.parallax-container {
+  min-height: 700px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+
+  .raise {
+    margin-top:-20%;
+  }
+}
+
+@media only screen and (max-width : 700px) {
+  .raise {
+    margin-top:-40%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  .raise {
+    margin-top:-80%;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.tabs .tab a { 
+      color: white;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+       color: black; 
+      background-color: #ffa726;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    background-color: #ffc107;
+    outline: none;
+}
